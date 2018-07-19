@@ -1,0 +1,138 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  background-color: grey;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+p {
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 170px;
+  background-color: green;
+  margin-top: 0px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding-bottom: 10px;
+}
+
+.navone {
+margin-left: 10px;
+grid-column: 1;
+display: inline;
+}
+
+.navtwo {
+margin-left: 10px;
+grid-column: 1;
+display: inline;
+}
+
+.navthree {
+margin-left: 10px;
+grid-column: 1;
+display: inline;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: 2;
+  height: 100%;
+  row-gap: 10px;
+  column-gap: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: grey;
+  padding-top: 10px;
+}
+
+.shares {
+   display: flex;
+   align-items: center;
+   height: 130px;
+}
+
+/*Style Each Card////////////////////////////////////////*/
+.card {
+  background-color: black;
+  height: 459px;
+  margin-top: 5px;
+}
+
+.picture {
+  background-image: url(media/lab2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 36%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: red;
+  height: 297px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.name {
+ margin-top: 0px;
+ margin-bottom: 0px;
+ padding-top: 5px;
+}
+
+.text {
+  background-color: grey;
+  border: none;
+  height: 3.5rem;
+  width: 100%;
+}
+
+.playlist {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.playlistname {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.attachments {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.number {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 2em;
+}
+
+.datetime {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+
