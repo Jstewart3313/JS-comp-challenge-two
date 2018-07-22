@@ -2,9 +2,15 @@ body {
   height: 100%;
   width: 100%;
   margin: 0px;
-  background-color: grey;
+  background-color: #B9BAA3;
   margin-top: 0px;
   padding: 0px;
+  font-family: 'Fira Sans Condensed', sans-serif;;
+}
+
+h1 {
+  font-size: 3em;
+  color: #3498DB;
 }
 
 p {
@@ -16,14 +22,36 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 170px;
-  background-color: green;
+  background-color: #0A100D;
   margin-top: 0px;
+  color: #3498DB;
+}
+
+.play {
+  height: 100px;
+  width: 100px;
+}
+
+.admin {
+  height: 20px;
+  width: 20px;
+  margin-top: 5px;
+}
+
+.down {
+  height: 20px;
+  width: 20px;
+}
+
+.ontab {
+  color: #A22C29;
 }
 
 .logo {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
   margin-right: 10px;
 }
 
@@ -31,25 +59,23 @@ p {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
+  width: 507px;
 }
 
-.navone {
+.navicon {
+  height: 40px;
+  width: 40px;
+  margin-left: 10px;
+}
+
+.navtext {
 margin-left: 10px;
 grid-column: 1;
 display: inline;
-}
-
-.navtwo {
-margin-left: 10px;
-grid-column: 1;
-display: inline;
-}
-
-.navthree {
-margin-left: 10px;
-grid-column: 1;
-display: inline;
+padding-bottom: 10px;
+font-size: 1.5em;
+vertical-align: center;
 }
 
 .main {
@@ -57,18 +83,19 @@ display: inline;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-template-rows: 2;
   height: 100%;
-  row-gap: 10px;
+  grid-row-gap: 27px;
   column-gap: 10px;
-  margin-left: 5px;
-  margin-right: 5px;
-  background-color: grey;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #B9BAA3;
   padding-top: 10px;
 }
 
-.shares {
+.gameheader {
    display: flex;
    align-items: center;
    height: 130px;
+   margin-left: 10px;
 }
 
 /*Style Each Card////////////////////////////////////////*/
@@ -79,20 +106,113 @@ display: inline;
 }
 
 .picture {
-  background-image: url(media/lab2.jpg);
-  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0;
   background-size: cover;
   height: 36%;
+  padding: 10px;
+}
+
+.picture:hover {
+  opacity: .7;
+}
+
+.killcount {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 9rem;
+  text-align: center;
+
+}
+
+.kills {
+}
+
+.cardnumber {
+  font-size: 1.75em;
+  color: #3498DB;
+}
+
+.cursorbox {
+  height: 10rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.cursor {
+  height: 40px;
+  width: 40px;
+}
+
+.pic1 {
+  background-image: url(media/PUBG1.jpg);
+  background-position: center center;
+
+}
+
+.pic2 {
+  background-image: url(media/fortnite1.jpg);
+  background-position: center center;
+}
+
+.pic3{
+  background-image: url(media/r61.jpg);
+  background-position: center center;
+}
+
+.pic4{
+  background-image: url(media/cs2.jpg);
+  background-position: center center;
+}
+
+.pic5{
+  background-image: url(media/head1.png);
+  background-position: center center;
+}
+
+.pic6{
+  background-image: url(media/ow1.jpg);
+  background-position: center center;
+}
+
+.pic7{
+  background-image: url(media/cod4.jpg);
+  background-position: center center;
+}
+
+.pic8{
+background-image: url(media/mega2.jpg);
+background-position: center center;
+}
+
+input {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow-wrap: break-word;
+
+}
+
+input::placeholder {
+  margin-top: 0px;
+  color: #323232;
+  font-size: 2em;
 }
 
 .info {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: red;
+  background-color: #D6D5C9;
   height: 297px;
   padding-left: 10px;
   padding-right: 10px;
+  color: #0a100d;
 }
 
 .name {
@@ -101,8 +221,12 @@ display: inline;
  padding-top: 5px;
 }
 
+.datetime {
+  color: #3498DB;
+}
+
 .text {
-  background-color: grey;
+  background-color: #C0BCB5;
   border: none;
   height: 3.5rem;
   width: 100%;
@@ -116,6 +240,7 @@ display: inline;
 .playlistname {
   margin-top: 0px;
   margin-bottom: 0px;
+  color: #3498DB;
 }
 
 .attachments {
@@ -127,6 +252,7 @@ display: inline;
   margin-top: 0px;
   margin-bottom: 0px;
   font-size: 2em;
+  color: #3498DB;
 }
 
 .datetime {
@@ -134,5 +260,97 @@ display: inline;
   margin-bottom: 0px;
 }
 
+/*=============================================*/
+/*==================Media Query================*/
+/*=============================================*/
 
+
+
+@media screen and (max-width: 629px) {
+  .header {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  /*grid-template-columns: auto;*/
+  height: 250px;
+  width: 100%;
+  background-color: #0A100D;
+  margin-top: 0px;
+  color: #3498DB;
+}
+
+.nav {
+  grid-row: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  grid-row: 1;
+  grid-column: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 526px){
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 30px;
+  width: 507px;
+}
+
+.navicon {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+}
+
+.navtext {
+margin-left: 10px;
+grid-column: 1;
+display: inline;
+padding-bottom: 10px;
+font-size: 1em;
+vertical-align: center;
+}
+
+}
+
+@media screen and (max-width: 507px) {
+  .nav {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding-bottom: 30px;
+  width: 350px;
+}
+
+.navicon {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+}
+}
+
+@media screen and (max-width: 350px) {
+    .nav {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding-bottom: 30px;
+  width: 320px;
+}
+  .navicon {
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+}
+
+}
 

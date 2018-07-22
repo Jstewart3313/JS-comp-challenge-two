@@ -3,132 +3,182 @@
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" type="text/css" href="normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed" rel="stylesheet"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Static Comp Challenge Two</title>
 </head>
 <body>
   <header class='header'>
    <div class='nav'>
     <span>
-    <p class='navone'>Games</p>
-    <p class='navtwo'>Movies</p>
-    <p class='navthree'>Book Titles</p>
+      <img src='media/Games.svg' class='navicon'>
+    <p class='navtext ontab'>Games</p>
+      <img src='media/movies.svg' class='navicon'>
+    <p class='navtext'>Movies</p>
+    <img src='media/book.svg' class='navicon'>
+    <p class='navtext'>Book Titles</p>
     </span>
    </div> 
     <div class='logo'>
-      <p> Hello</p>
+      <span>
+      <p> <img class='admin' src='media/profile.svg'> Admin Username <img class='down' src='media/down.svg'></p>
+      </span>
+      <img class='play' src='media/play.svg'>
     <div>
   </header>
-  <container class='shares'>
+  <container class='gameheader'>
     <h1>Games</h1>
   </container>
   <main class='main'>
     <article class='card'>
-      <div class='picture'>
+      <div class='picture pic1'>
+        <div class='cursorbox'>
+          <img class='cursor' src='media/crosshair.svg'>
+        </div>  
+        <div class='killcount'>
+        <p class='kills'>Kills</p>
+        <p class='cardnumber'>300</p>
+        </div>
       </div>
       <div class='info'>
        <div class='block1'>
-        <h3 class='name'>Game Name Here</h3>
+        <h3 class='name'>PlayerUnknown's Battleground</h3>
         <p class='datetime'> Tuesday 7/24/18 10:00 a.m</p>
        </div>
-        <input type='text' class='text'>
+        <input type='text' placeholder='www.pubg.com/' class='text'>
         <div class='block3'>
         <p class='playlist'> Type:</p>
-        <h3 class='playlistname'> Game Name</h3>
+        <h3 class='playlistname'>Battle Royale</h3>
         </div>
         <div class='block4'>
           <p class='attachment'>Years</p>
-          <p class='number'>04</p>
+          <p class='number'>01</p>
         </div>
       </div>
     </article>
     </article>    
     <article class='card'>
-      <div class='picture'>
+      <div class='picture pic2'>
+          <div class='cursorbox'>
+          <img class='cursor' src='media/crosshair.svg'>
+        </div>  
+        <div class='killcount'>
+        <p class='kills'>Kills</p>
+        <p class='cardnumber'>300</p>
+        </div>
       </div>
       <div class='info'>
         <div class='block1'>
-         <h3 class='name'>Game Name Here</h3>
+         <h3 class='name'>Fortnite</h3>
          <p class='datetime'> Tuesday 7/24/18 10:00 a.m</p>
         </div> 
-        <input type='text' class='text'>
+        <input type='text' placeholder='www.epicgames.com/fortnite' class='text'>
         <div class='block3'>
         <p class='playlist'>Type:</p>
-        <h3 class='playlistname'>Game Name</h3>
+        <h3 class='playlistname'>Battle Royale</h3>
         </div>
         <div class='block4'>
           <p class='attachment'>Years</p>
-          <p class='number'>04</p>
+          <p class='number'>01</p>
         </div>
       </div>
     </article>    
     <article class='card'>
-      <div class='picture'>
+      <div class='picture pic3'>
+        <div class='cursorbox'>
+        <img class='cursor' src='media/crosshair.svg'>
+        </div>  
+        <div class='killcount'>
+        <p class='kills'>Kills</p>
+        <p class='cardnumber'>300</p>
+        </div>
       </div>
       <div class='info'>
         <div class='block1'>
-          <h3 class='name'>Game Name Here</h3>
+          <h3 class='name'>Rainbow six: Siege</h3>
           <p class='datetime'> Tuesday 7/24/18 10:00 a.m</p>
         </div>
-        <input type='text' class='text'>
+        <input type='text' placeholder='www.rainbow6.ubisoft.com/siege' class='text'>
         <div class='block3'>
         <p class='playlist'>Type</p>
-        <h3 class='playlistname'>Game Name</h3>
+        <h3 class='playlistname'>SandBox Shooter</h3>
         </div>
         <div class='block4'>
           <p class='attachment'>Years</p>
-          <p class='number'>04</p>
+          <p class='number'>03</p>
         </div>
       </div>
     </article>    
     <article class='card'>
-      <div class='picture'>
+      <div class='picture pic4'>
+        <div class='cursorbox'>
+        <img class='cursor' src='media/crosshair.svg'>
+        </div>  
+        <div class='killcount'>
+        <p class='kills'>Kills</p>
+        <p class='cardnumber'>300</p>
+        </div>
       </div>
       <div class='info'>
         <div class='block1'>
-          <h3 class='name'>Game Name Here</h3>
+          <h3 class='name'>Counter Strike</h3>
           <p class='datetime'> Tuesday 7/24/18 10:00 a.m</p>
         </div>  
-        <input type='text' class='text'>
+        <input type='text' placeholder='www.arma3.com/' class='text'>
         <div class='block3'>
         <p class='playlist'> Type:</p>
-        <h3 class='playlistname'>Game Name</h3>
+        <h3 class='playlistname'>First Person Shooter</h3>
         </div>
           <div class='block4'>
           <p class='attachment'>Years</p>
-          <p class='number'>04</p>
+          <p class='number'>06</p>
         </div>
     </article>
     <article class='card'>
-      <div class='picture'>
+      <div class='picture pic5'>
+        <div class='cursorbox'>
+        <img class='cursor' src='media/crosshair.svg'>
+        </div>  
+        <div class='killcount'>
+        <p class='kills'>Kills</p>
+        <p class='cardnumber'>300</p>
+        </div>
       </div>
       <div class='info'>
         <div class='block1'>
-          <h3 class='name'>Game Name Here</h3>
+          <h3 class='name'> CupHead</h3>
           <p class='datetime'> Tuesday 7/24/18 10:00 a.m</p>
         </div>  
-        <input type='text' class='text'>
+        <input type='text' placeholder='www.cupheadgame.com/' class='text'>
        <div class='block3'>
         <p class='playlist'>Type:</p>
-        <h3 class='playlistname'>Game Name</h3>
+        <h3 class='playlistname'>Run n' Gun</h3>
         </div>
           <div class='block4'>
           <p class='attachment'>Years</p>
-          <p class='number'>04</p>
+          <p class='number'>01</p>
         </div>
       </div>
     </article>
     <article class='card'>
-      <div class='picture'>
+      <div class='picture pic6'>
+        <div class='cursorbox'>
+        <img class='cursor' src='media/crosshair.svg'>
+        </div>  
+        <div class='killcount'>
+        <p class='kills'>Kills</p>
+        <p class='cardnumber'>300</p>
+        </div>
       </div>
       <div class='info'>
         <div class='block1'>
-          <h3 class='name'>Game Name Here</h3>
+          <h3 class='name'>OverWatch</h3>
           <p class='datetime'> Tuesday 7/24/18 10:00 a.m</p>
         </div>
-        <input type='text' class='text'>
+        <input type='text' placeholder='www.playoverwatch.com/en-us/' class='text'>
         <div class='block3'>
         <p class='playlist'>Type:</p>
-        <h3 class='playlistname'>Game Name</h3>
+        <h3 class='playlistname'>First Person Shooter</h3>
         </div>
           <div class='block4'>
           <p class='attachment'>Years</p>
@@ -137,40 +187,54 @@
       </div>
     </article>
     <article class='card'>
-      <div class='picture'>
+      <div class='picture pic7'>
+        <div class='cursorbox'>
+        <img class='cursor' src='media/crosshair.svg'>
+        </div>  
+        <div class='killcount'>
+        <p class='kills'>Kills</p>
+        <p class='cardnumber'>300</p>
+        </div>
       </div>
       <div class='info'>
         <div class='block1'>
-          <h3 class='name'>Game Name Here</h3>
+          <h3 class='name'>Call of Duty: world at War</h3>
           <p class='datetime'> Tuesday 7/24/18 10:00 a.m</p>
         </div>  
-      <input type='text' class='text'>
+      <input type='text' placeholder='www.callofduty.com/wwii' class='text'>
       <div class='block3'>
         <p class='playlist'>Type:</p>
-        <h3 class='playlistname'>Game Name</h3>
+        <h3 class='playlistname'>First Person Shooter</h3>
         </div>
           <div class='block4'>
           <p class='attachment'>Years</p>
-          <p class='number'>04</p>
+          <p class='number'>10</p>
         </div>
       </div>
     </article>
     <article class='card'>
-      <div class='picture'>
+      <div class='picture pic8'>
+        <div class='cursorbox'>
+        <img class='cursor' src='media/crosshair.svg'>
+        </div>  
+        <div class='killcount'>
+        <p class='kills'>Kills</p>
+        <p class='cardnumber'>300</p>
+        </div>
       </div>
       <div class='info'>
         <div class='block1'>
-          <h3 class='name'>Game Name Here</h3>
+          <h3 class='name'>MegaMan</h3>
           <p class='datetime'> Tuesday 7/24/18 10:00 a.m</p>
         </div>  
-        <input type='text' class='text'>
+        <input type='text' placeholder='www.radicalheights.com/' class='text'>
         <div class='block3'>
         <p class='playlist'>Type:</p>
-        <h3 class='playlistname'>Game Name</h3>
+        <h3 class='playlistname'>Run n' Gun</h3>
         </div>
           <div class='block4'>
           <p class='attachment'>Years</p>
-          <p class='number'>04</p>
+          <p class='number'>31</p>
         </div>
       </div>
     </article>
