@@ -115,13 +115,18 @@ vertical-align: center;
   background-color: black;
   height: 459px;
   margin-top: 5px;
+  border-style: solid;
+  border-width: 1px;
+  display-border: none;
 }
 
 .card:hover {
+  transition-property: border;
+  transition-duration: 2000ms;
   border-style: solid;
   border-color: #A22C29;
-  border-width: 4px;
-  .info: background-color: #A22C29;;
+  border-width: 1px;
+
 }
 
 .picture {
