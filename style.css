@@ -2,7 +2,7 @@ body {
   height: 100%;
   width: 100%;
   margin: 0px;
-  background-color: #B9BAA3;
+  background-color: #95B986;
   margin-top: 0px;
   padding: 0px;
   font-family: 'Fira Sans Condensed', sans-serif;;
@@ -10,7 +10,7 @@ body {
 
 h1 {
   font-size: 3em;
-  color: #3498DB;
+  color: #777195;
 }
 
 p {
@@ -22,14 +22,15 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 170px;
-  background-color: #0A100D;
+  background-color: #172429;
   margin-top: 0px;
-  color: #3498DB;
+  color: #777195;
 }
 
 .play {
-  height: 100px;
-  width: 100px;
+  height: 75px;
+  width: 75px;
+  margin-right: 10px;
 }
 
 .admin {
@@ -44,7 +45,7 @@ p {
 }
 
 .ontab {
-  color: #A22C29;
+  color: #95b986;
 }
 
 .logo {
@@ -58,7 +59,7 @@ p {
 .username:hover {
   transition-property: all;
   transition-duration: 1000ms;
-  color: #A22C29;
+  color: #B7B3D0;
 }
 
 .nav {
@@ -67,6 +68,10 @@ p {
   align-items: flex-end;
   padding-bottom: 30px;
   width: 507px;
+}
+
+.middle {
+  vertical-align: middle;
 }
 
 .navicon {
@@ -87,7 +92,7 @@ vertical-align: center;
 .navtext:hover {
   transition-property: all;
   transition-duration: 1000ms;
-  color: #A22C29;
+  color: #B7B3D0;
 }
 
 .main {
@@ -99,7 +104,7 @@ vertical-align: center;
   column-gap: 10px;
   margin-left: 10px;
   margin-right: 10px;
-  background-color: #B9BAA3;
+  background-color: #95b986;
   padding-top: 10px;
 }
 
@@ -124,7 +129,7 @@ vertical-align: center;
   transition-property: border;
   transition-duration: 2000ms;
   border-style: solid;
-  border-color: #A22C29;
+  border-color: #B7B3D0;
   border-width: 1px;
 
 }
@@ -157,7 +162,7 @@ vertical-align: center;
 
 .cardnumber {
   font-size: 1.75em;
-  color: #3498DB;
+  color: #777195;
 }
 
 .cursorbox {
@@ -233,17 +238,17 @@ input::placeholder {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: #D6D5C9;
+  background-color: #475c3d;
   height: 274px;
   padding-left: 10px;
   padding-right: 10px;
-  color: #0a100d;
+  color: #38354A;
 }
 
 .info:hover {
   transition-property: all;
   transition-duration: 2000ms;
-  background-color: #A22C29;
+  background-color: #B7B3D0;
 }
 
 .name {
@@ -253,11 +258,11 @@ input::placeholder {
 }
 
 .datetime {
-  color: #3498DB;
+  color: #777195;
 }
 
 .text {
-  background-color: #C0BCB5;
+  background-color: #95b986;
   border: none;
   height: 3.5rem;
   width: 100%;
@@ -271,7 +276,7 @@ input::placeholder {
 .playlistname {
   margin-top: 0px;
   margin-bottom: 0px;
-  color: #3498DB;
+  color: #777195;
 }
 
 .attachments {
@@ -283,7 +288,7 @@ input::placeholder {
   margin-top: 0px;
   margin-bottom: 0px;
   font-size: 2em;
-  color: #3498DB;
+  color: #777195;
 }
 
 .datetime {
@@ -305,9 +310,9 @@ input::placeholder {
   grid-template-columns: none;
   height: 250px;
   width: 100%;
-  background-color: #0A100D;
+  background-color: #38354A;
   margin-top: 0px;
-  color: #3498DB;
+  color: #777195;
 }
 
 .nav {
