@@ -226,13 +226,15 @@ input {
   justify-content: flex-start;
   align-items: flex-start;
   overflow-wrap: break-word;
-
+  text-align: center;
 }
 
 input::placeholder {
   margin-top: 0px;
   color: #323232;
-  font-size: 2em;
+  font-size: 20px;
+  margin: 0 auto;
+  padding-left: 2px;
 }
 
 .info {
