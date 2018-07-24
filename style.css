@@ -22,7 +22,7 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 170px;
-  background-color: #172429;
+  background-color: #38354A;
   margin-top: 0px;
   color: #777195;
 }
@@ -67,6 +67,7 @@ p {
   flex-direction: row;
   align-items: flex-end;
   padding-bottom: 30px;
+  background-color: #38354A;
   width: 507px;
 }
 
